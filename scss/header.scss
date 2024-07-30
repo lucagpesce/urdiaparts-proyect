@@ -13,14 +13,21 @@ header{
         justify-content: center;
         margin: 0;
         padding: 0;
+        list-style: none;
 
         li{
             margin-right: 1.667vw;
 
             a{
+                display: inline-block;
                 font-family: 'inter', 'sans-serif';
                 text-decoration: none;
                 color: rgb(255, 255, 255);
+                transition: transform 0.3s ease;
+
+                &:hover{
+                    transform: scale(1.1);
+                }
             }
 
             img {
